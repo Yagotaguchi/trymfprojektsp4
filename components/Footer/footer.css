@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+
+footer{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 35px;
+    width:100%;
+    display: inline-flex;
+}
+
+footer #plataformas{
+    background-image: url(/images/Portoemtodasasplataformasdigitais.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin: 10px;
+    margin-left: 85px;
+}
+
+footer #logos{
+    background-image: url(/images/image1.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin-left: 19px;
+}
+
+footer #app{
+    background-image: url(/images/baixeoapp.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin: 10px;
+    margin-left: 27px;
+    margin-right: -172px;
+}
+
+footer #sistemas{
+    background-image: url(/images/image3.png);
+    background-repeat: no-repeat;
+    width: 279px;
+}
+
+footer #logopreto{
+    background-image: url(/images/image2.png);
+    background-repeat: no-repeat;
+    width: 117px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media (min-width:360px) and (max-width:599px){
+    
+footer {
+    margin-top: 385px;
+    width: 147vh;
+}
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width:767px){
+
+    footer{
+        margin-top:326px;
+        width: 137vh;
+    }
+    footer #logopreto {
+        background-image: url(/images/image2.png);
+        background-repeat: no-repeat;
+        width: 150px;
+    }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    footer{
+        margin-top:326px;
+        width: 145vh;
+    }
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    footer{
+        width: 145vh;
+    }
+    footer #plataformas{
+        width: 370px;
+        margin-left: 80px;
+    }
+    
+    footer #logos {
+        margin-left: -60px;
+    }
+
+    footer #app {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+
+    footer #sistemas {
+        width:0;
+    }
+
+    footer #logopreto {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+}
+
+/* Large devices (large laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    footer{
+        background-color: #000000;
+        background-repeat: no-repeat;
+        height: 35px;
+        width:100%;
+        display: inline-flex;
+    }
+    
+    footer #plataformas{
+        background-image: url(/images/Portoemtodasasplataformasdigitais.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        margin: 10px;
+        margin-left: 350px;
+
+    }
+    
+    footer #logos{
+        background-image: url(/images/image1.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        margin-left: 19px;
+    }
+    
+    footer #app{
+        background-image: url(/images/baixeoapp.png);
+        background-repeat: no-repeat;
+        width: 279px;
+        margin: 10px;
+        margin-left: 27px;
+        margin-right: -172px;
+    }
+    
+    footer #sistemas{
+        background-image: url(/images/image3.png);
+        background-repeat: no-repeat;
+        width: 279px;
+    }
+    
+    footer #logopreto{
+        background-image: url(/images/image2.png);
+        background-repeat: no-repeat;
+        width: 117px;
+    }
+}
