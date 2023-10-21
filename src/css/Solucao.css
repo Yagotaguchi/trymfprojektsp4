@@ -1,0 +1,25 @@
+
+body{
+    background:  rgba(125,187,255,1) ;
+    font-family: 'Gabarito', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+.texto-principal h1{
+    font-size: 40px;
+    font-weight: 400px;
+    color: white;
+    margin: 0 0 25px ;
+    line-height: 1;
+}
+
+.texto-principal{
+    align-items: center;
+}
+
+.video-player{
+    padding: 100px;
+}
