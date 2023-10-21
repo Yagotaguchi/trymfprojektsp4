@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+
+.principal{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient();
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+body{
+    background:  rgba(125,187,255,1) 
+
+}
+
+#caminhao{
+    width: 550px;
+    height: 550px;
+    border-radius: 120%;
+    margin-left: 100px;
+}
+
+#play-icon{
+    font-size: 10px;
+}
+
+section{
+    padding: 0 9%;
+}
+
+
+.texto-principal h1{
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+    margin: 0 0 25px ;
+    line-height: 1;
+}
+
+.texto-principal h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.texto-principal p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0056b5;
+    margin-bottom: 40px;
+    line-height: 1.9;
+}
+
+.texto-principal a{
+    display: inline-block;
+    color: white;
+    background: #1b88ff;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius:30px ;
+    text-transform: uppercase;
+
+}
+
+
+.texto-principal a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(4px);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width:360px) and (max-width:599px){
+    
+    .principal {
+        height: 100%;
+        width: 100%;
+        min-height: 130vh;
+        background: linear-gradient();
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        grid-gap: 2rem;
+        gap: 2rem;
+    }
+
+    .texto-second h1 {
+        font-size: 90px;
+        font-weight: 400;
+        color: white;
+        margin: 0 0 25px;
+        line-height: 1;
+        margin-right: -10px;
+    }
+
+}
